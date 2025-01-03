@@ -12,3 +12,9 @@ h3,h1{
     background-color:red;
     color: black;
 }
+p a{
+    color: black;
+}
+nav ul li a{
+    color: black;
+}
