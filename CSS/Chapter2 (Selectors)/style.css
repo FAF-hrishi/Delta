@@ -1,49 +1,32 @@
+#mainTopic{
+    color: blue;
+}
 *{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: aqua;
+    text-align: center;
 }
-h1,h3{
-    color: purple;
+.heading_tag{
+    font-style: Georgia;
 }
-#login,#signup{
-    background-color: white;
+.para{
+    color:white;
+    background-color: cornflowerblue;
 }
-.upvote{
-    background-color:yellowgreen;
-    color: black;
-}
-p a{
-    color: black;
-}
-nav ul li a{
-    color: black;
-} 
-p+h3{
-    color: blue;
-}
-.upvote+button{
-    color: blue;
-}
-span>.upvote{
-    color:red;
-}
-input[type="text"]{
-    color: red;
-}
-input[type="password"]{
-    color: blue;
+div button{
+     background-color: purple;
+     color: azure;
 }
 
-button:hover{
-    background-color: black;
-    color: white;
+div button:hover{
+    background-color: yellow;
+    color: blue;
 }
-button:active{
-    background-color: pink;
+.para:nth-of-type(odd){
+    color: yellow;
 }
-input[type="radio"]:checked+label{
+h1::first-letter{
     color: red;
 }
-.post:nth-of-type(2){
-    background-color: antiquewhite;
+input[type="checkbox"]:checked+label{
+    color: green;
 }
+
